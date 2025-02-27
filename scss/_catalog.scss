@@ -1,0 +1,33 @@
+.dist {
+    padding: 60px 0;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 40px;
+    }
+    &__img {
+        width: 35%;
+        img {
+            width: 100%;
+        }
+    }
+    &__content {
+        padding: 0 20px;
+        width: 65%;
+    }
+    &__links {
+        li {
+            margin-bottom: 12px;
+            a {
+                font-size: 18px;
+                line-height: 21px;
+                text-decoration: none;
+                color: $gray-color;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}

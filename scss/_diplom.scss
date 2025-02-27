@@ -1,0 +1,25 @@
+.diplom {
+    padding: 100px 0;
+}
+.swiper {
+    margin-top: 50px;
+}
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 600px;
+    img {
+        width: 100%;
+    }
+  }
+.swiper-button-prev, .swiper-button-next {
+    width: 70px;
+    height: 70px;
+    background: $main-color;
+    color: #fff;
+    border-radius: 34px;
+    &:hover {
+       background: $text-color;
+    }
+}

@@ -1,0 +1,92 @@
+.attest {
+    position: relative;
+    background: $main-color;
+    height: 100vh;
+    overflow: hidden;
+    
+    &__img {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 50%;
+        
+        object-fit: cover;
+    }
+    &__wrapper {
+        width: 50%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    &__btn {
+        background: $second-color;
+        &:hover {
+            opacity: .8;
+            background: $second-color;
+        }
+    }
+    &__h {
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 42px;
+        color: #FFFFFF; 
+        margin-top: 70px;
+        margin-bottom: 40px;
+    }
+    .menu__item {
+        margin-bottom: 15px;
+    }
+    &__text {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        max-width: 560px;
+        margin: 0 auto;
+    }
+    &__diagr {
+        text-align: center;
+        
+        img {
+            width: 400px;
+            vertical-align: top;
+        }
+    }
+}
+.visit {
+    padding: 100px 0;
+    &__wrapper {
+        box-shadow: 5px 5px 10px #55799F;
+        padding: 30px;
+        width: 70%;
+        margin: 30px auto 0;
+        margin-bottom: 50px;
+    }
+    &__item {
+        margin: 10px 0;
+        border-bottom: 1px solid $second-color;
+        display: flex;
+        justify-content: space-between;
+        &_end {
+            text-align: right;
+        }
+    }
+    
+    
+}
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+td, th {
+    border: 1px solid $text-color;
+    text-align: center;
+    max-width: 440px;
+}
+.td_bold {
+    font-weight: 700;
+}
+.rasd1 {
+    padding-bottom: 100px;
+}

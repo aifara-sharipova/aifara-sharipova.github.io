@@ -1,0 +1,38 @@
+.philo {
+    background: url(../img/philo_bg.png) no-repeat top;
+    background-size: cover;
+    padding: 100px 0;
+    &__subtitle {
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: right;
+        color: #343A40;
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+    &__text {
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 120%;
+        color: #343A40;
+        margin: 20px 0;
+        text-align: center;
+        
+        
+        &_left {
+            max-width: 725px;
+            text-align: left;
+        }
+        &_right {
+            max-width: 830px;
+            text-align: right;
+            margin-left: auto;
+        }
+    }
+    ul.philo__text {
+        margin: 0 auto;
+        text-align: left;
+        max-width: 700px;
+    }
+}
