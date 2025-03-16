@@ -17,7 +17,7 @@ const swiper = new Swiper('.swiper', {
     effect: "coverflow",
     grabCursor: true,
     centeredSlides: true,
-    slidesPerView: "auto",
+    slidesPerView: "3",
     coverflowEffect: {
       rotate: 50,
       stretch: 0,
@@ -27,3 +27,6 @@ const swiper = new Swiper('.swiper', {
     },
     loop: true,
   });
+
+  //fancybox галерея
+  Fancybox.bind("[data-fancybox]", {});
